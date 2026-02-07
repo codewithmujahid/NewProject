@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrangeHRMSS.colour_font_posstin_validation">
+      <class name="OrangeHRMSS.MouseHover">
         <methods>
-          <include name="clour"/>
+          <include name="mousehover"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- OrangeHRMSS.colour_font_posstin_validation -->
+      </class> <!-- OrangeHRMSS.MouseHover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

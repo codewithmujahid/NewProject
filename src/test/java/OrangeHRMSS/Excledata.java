@@ -25,13 +25,8 @@ public class Excledata {
 	 
 	  for(int i=1; i<RowCount; i++) {
 		  XSSFRow row=sheet.getRow(i);
-		  
-		  
 		  for(int j=0; j<row.getPhysicalNumberOfCells(); j++) {
-			  
-			  
 			  XSSFCell cell = row.getCell(j);
-			  
 			  System.out.println(cell.toString());
 		  }
 		  
